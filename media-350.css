@@ -1,0 +1,88 @@
+@media (max-width: 350px) {
+    .bar__content_hidden-text {
+        display: none;
+    }
+
+    .bar__wrapper {
+        width: 66%;
+    }
+
+    .menu__hidden-menu {
+        left: 12px;
+    }
+
+    .menu__button,
+    .info__wrapper_text-align-right {
+        display: none;
+    }
+
+    .desc__name,
+    .advice__head {
+        font-size: 1.5rem;
+    }
+
+    .desc__head {
+        font-size: 2rem;
+    }
+
+    .desc__info {
+        font-size: 1rem;
+    }
+
+    .about__advices {
+        padding: 40px 0;
+    }
+
+    .desc__img {
+        background-size: contain;
+    }
+
+    .advices__desc {
+        margin-top: 0;
+    }
+
+    .head {
+        font-size: 2rem;
+        padding: 40px 0;
+    }
+
+    .service__feature {
+        flex-direction: column;
+    }
+
+    .trainers__block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trainers__desc {
+        margin: 10px 0 20px;
+    }
+
+    .trainers__photo_lilly-photo {
+        margin-bottom: 15px;
+    }
+
+    .partners__wrapper {
+        width: 100%;
+    }
+
+    .info__main-info {
+        padding: 10px 10px 20px;
+    }
+}
+
+@media (min-width: 351px) and (max-width: 400px) {
+    .trainers__block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .trainers__desc {
+        margin: 10px 0 20px;
+    }
+
+    .trainers__photo_lilly-photo {
+        margin-bottom: 15px;
+    }
+}

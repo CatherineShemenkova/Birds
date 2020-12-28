@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Birds Care</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link rel="stylesheet" href="media-960.css">
+    <link rel="stylesheet" href="media-760.css">
+    <link rel="stylesheet" href="media-480.css">
+    <link rel="stylesheet" href="media-350.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6d9e74e281.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="bar header__bar">
+            <div class="bar__content"><i class="fas fa-bar fa-chevron-left "></i><span class="bar__content_hidden-text">Back</span></div>
+            <div class="bar__wrapper">
+                <div class="bar__content"><i class="fas fa-bar fa-download"></i><span class="bar__content_hidden-text">Download</span></div>
+                <div class="bar__content"><i class="fas fa-bar fa-shopping-cart"></i><span class="bar__content_hidden-text">Buy Now</span></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-page">
+        <div id="home" class="intro main-page__intro">
+            <div class="menu intro__menu">
+                <div class="hidden-nav menu__hidden-nav">
+                    <button id="hidden-button" class="button hidden-nav__button"><i class="fas fa-bars fa-2x"></i></button>
+                </div>
+                <div class="menu__head"><p>Birds Care</p></div>
+                <div class="menu__nav">
+                    <nav>
+                        <a class="menu__point" href="#home">Home</a>
+                        <a class="menu__point" href="#about">About</a>
+                        <a class="menu__point" href="#service">Service</a>
+                        <a class="menu__point" href="#team">Team</a>
+                        <a class="menu__point" href="#gallery">Gallery</a>
+                        <a class="menu__point" href="#contact">Contact</a>
+                    </nav>
+                </div>
+                <div class="menu__button">
+                    <input class="button button-login" type="submit" value="Login">
+                </div>
+            </div>
+
+            <div id="hidden-menu" class="hidden-menu menu__hidden-menu">
+                <div class="hidden-menu__wrapper">
+                    <a class="menu__point" href="#home">Home</a><br>
+                    <a class="menu__point" href="#about">About</a><br>
+                    <a class="menu__point" href="#service">Service</a><br>
+                    <a class="menu__point" href="#team">Team</a><br>
+                    <a class="menu__point" href="#gallery">Gallery</a><br>
+                    <a class="menu__point" href="#contact">Contact</a>
+                </div>
+            </div>
+
+            <div class="desc intro__desc">
+                <p class="desc__name">Birds Paradise</p>
+                <h1 class="desc__head">Exotic and feathers birds</h1>
+                <p class="desc__info">Lorem ipsum dolor sit amet</p>
+                <input class="button button-read-more" type="submit" value="Read More">
+            </div>
+
+            <div class="nav intro__nav">
+                <div class="nav__point">Professional Care</div>
+                <div class="nav__point">Popular Birds</div>
+                <div class="nav__point">New Arrivals</div>
+            </div>
+        </div>
+        <!--end home-->
+
+        <div id="about" class="about main-page__about">
+            <div class="advices about__advices">
+                <div class="nav advices__nav">
+                    <nav>
+                        <a href="" class="nav__item">Exotic Pet</a>
+                        <a href="" class="nav__item">Original Breed</a>
+                        <a href="" class="nav__item">Trainer Birds</a>
+                    </nav>
+                </div>
+                <div class="hidden-advices-nav advices__hidden-advices-nav">
+                    <select class="hidden-advices-nav__select" name="about-birds">
+                        <option value="exotic-pet">Exotic Pet</option>
+                        <option value="orig-breed">Original Breed</option>
+                        <option value="train-birds">Trainer Birds</option>
+                    </select>
+                </div>
+                <div class="desc advices__desc">
+                    <div class="desc__img"></div>
+                    <div class="advice desc__advice">
+                        <h2 class="advice__head">Things You Need For Your New Exotic Pet Bird!</h2>
+                        <p class="advice__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                        <input class="button button-read-more" type="button" value="Read More">
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrivals about__arrivals">
+                <div class="arrivals__info arrivals_width-and-height">
+                    <div class="arrivals___wrapper">
+                        <h2 class="arrivals__head">New Arrivals Birds Here</h2>
+                        <p class="arrivals__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                        </p>
+                    </div>
+                </div>
+                <div class="arrivals__img arrivals_width-and-height">
+                    <i class="fas fa-play-circle fa-3x"></i>
+                </div>
+            </div>
+        </div>
+        <!--end about-->
+
+        <div id="service" class="service main-page__service">
+            <h2 class="service__head head">Our Services</h2>
+
+            <div class="feature service__feature">
+                <div class="feature__flex-wrapper">
+                    <div class="feature__icons">
+                        <i class="fas fa-service fa-apple-alt fa-2x"></i>
+                        <p class="feature__name">Healthy food</p>
+                    </div>
+                    <div class="feature__icons">
+                        <i class="fas fa-service fa-heartbeat fa-2x"></i>
+                        <p class="feature__name">Medical care</p>
+                    </div>
+                    <div class="feature__icons">
+                        <i class="far fa-service fa-gem fa-2x"></i>
+                        <p class="feature__name">Groom & clean</p>
+                    </div>
+                    <div class="feature__icons">
+                        <i class="fas fa-service fa-history fa-2x"></i>
+                        <p class="feature__name">24/7 Care</p>
+                    </div>
+                </div>
+                <div class="feature__flex-wrapper">
+                    <div class="feature__icons">
+                        <i class="fas fa-service fa-utensils fa-2x"></i>
+                        <p class="feature__name">Nutrition</p>
+                    </div>
+                    <div class="feature__icons">
+                        <i class="fas fa-service fa-temperature-high fa-2x"></i>
+                        <p class="feature__name">Temperature</p>
+                    </div>
+                    <div class="feature__icons">
+                        <i class="fas fa-service fa-leaf fa-2x"></i>
+                        <p class="feature__name">Perches</p>
+                    </div>
+                    <div class="feature__icons">
+                        <i class="fas fa-service fa-eye fa-2x"></i>
+                        <p class="feature__name">Security</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end service-->
+
+        <div class="blog-news main-page__blog-news">
+            <h2 class="blog-news__head head">Blog And News</h2>
+
+            <div class="news blog-news__news blog-news__news_border-bottom blog-news__news_border-none">
+                <div class="news__item news__item_border-right blog-news__news_border-none">
+                    <div class="news__img"><img src="./images/blog2.jpg"></div>
+                    <div class="news__desc">
+                        <h3 class="news__head">New Arrivals Birds Here</h3>
+                        <p class="news__info">April 16 2020</p>
+                        <p class="news__info news__info_color-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                        </p>
+                    </div>
+                </div>
+                <div class="news__item blog-news__news_border-none">
+                    <div class="news__img"><img src="./images/blog1.jpg"></div>
+                    <div class="news__desc">
+                        <h3 class="news__head">Original And Exotic Birds</h3>
+                        <p class="news__info">April 16 2020</p>
+                        <p class="news__info news__info_color-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="news blog-news__news">
+                <div class="news__item news__item_border-right blog-news__news_border-none">
+                    <div class="news__img"><img src="./images/blog3.jpg"></div>
+                    <div class="news__desc">
+                        <h3 class="news__head">Your New Exotic Pet Bird</h3>
+                        <p class="news__info">April 16 2020</p>
+                        <p class="news__info news__info_color-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                        </p>
+                    </div>
+                </div>
+                <div class="news__item">
+                    <div class="news__img"><img src="./images/blog4.jpg"></div>
+                    <div class="news__desc">
+                        <h3 class="news__head">Trained Birds Available</h3>
+                        <p class="news__info">April 16 2020</p>
+                        <p class="news__info news__info_color-gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end blog-news-->
+
+        <div id="team" class="team main-page__team">
+            <h2 class="team__head head">Our Trainers</h2>
+
+            <div class="team__flex-wrapper">
+                <div class="trainers team__trainers">
+                    <div class="trainers__block">
+                        <div class="trainers__photo"></div>
+                        <div class="trainers__desc">
+                            <span class="trainers__name">Jexson Hammer</span>
+                            <span class="trainers__prof">Trainer</span>
+                        </div>
+                    </div>
+                    <div class="trainers__block trainers__block_flex-end">
+                        <div class="trainers__desc trainers__desc_margin">
+                            <span class="trainers__name">Lilly Hammer</span>
+                            <span class="trainers__prof">Trainer</span>
+                        </div>
+                        <div class="trainers__photo trainers__photo_lilly-photo"></div>
+                    </div>
+                </div>
+                <div class="trainers team__trainers">
+                    <div class="trainers__block">
+                        <div class="trainers__photo trainers__photo_marshal-photo"></div>
+                        <div class="trainers__desc">
+                            <span class="trainers__name">Marshall Zeox</span>
+                            <span class="trainers__prof">Trainer</span>
+                        </div>
+                    </div>
+                    <div class="trainers__block trainers__block_flex-end">
+                        <div class="trainers__desc trainers__desc_margin">
+                            <span class="trainers__name">Rose Willson</span>
+                            <span class="trainers__prof">Trainer</span>
+                        </div>
+                        <div class="trainers__photo trainers__photo_rose-photo"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end team-->
+
+        <div id="gallery" class="gallery main-page__gallery">
+            <h2 class="gallery__head head">Birds Gallery</h2>
+
+            <div class="gallery__block">
+                <div class="left-section gallery__section">
+                    <div class="left-section__img-top gallery__section_bg-pos"></div>
+                    <div class="left-section__wrapper">
+                        <div class="left-section__img-bottom gallery__section_bg-pos"></div>
+                        <div class="left-section__img-bottom left-section__img-bottom_another-img gallery__section_bg-pos"></div>
+                    </div>
+                </div>
+                <div class="right-section gallery__section gallery__section_width-30-perc">
+                    <div class="right-section__img-top gallery__section_bg-pos"></div>
+                    <div class="right-section__img-bottom gallery__section_bg-pos"></div>
+                </div>
+            </div>
+        </div>
+        <!--end gallery-->
+
+        <div class="clients main-page__clients">
+            <h2 class="clients__head head">Our Clients</h2>
+
+            <div class="client clients__block">
+                <img class="client__photo" src="./images/c2.jpg">
+                <p class="client__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua
+                </p>
+                <p class="client__name">Orcand Keen</p>
+                <p class="client__desc client__desc_padding-10px">Our Client</p>
+                <div class="client__wrapper">
+                    <div class="client__marker"></div>
+                    <div class="client__marker"></div>
+                    <div class="client__marker"></div>
+                </div>
+            </div>
+        </div>
+        <!--end clients-->
+
+        <div class="subscribe main-page__subscribe">
+            <div class="subscribe-block subscribe__subscribe-block">
+                <div class="subscribe-block__image"></div>
+                <div class="subscribe-block__desc">
+                    <h2 class="subscribe-block__head">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h2>
+                </div>
+            </div>
+
+            <div class="subscribe-block subscribe__subscribe-block subscribe__subscribe-block_flex-direction-column subscribe__subscribe-block_height">
+                <h2 class="subscribe__head head">Subscribe Us</h2>
+                <div class="form subscribe-block__form">
+                    <input class="form__field field" name="First-name" placeholder="First Name">
+                    <input class="form__field field" type="email" name="E-mail" placeholder="E-mail">
+                </div>
+                <input class="button button-subscribe" type="submit" value="Subscribe">
+            </div>
+        </div>
+        <!--end subscribe-->
+
+        <div class="partners main-page__partners">
+            <h2 class="partners__head head">Our Partners</h2>
+
+            <div class="partners__wrapper">
+                <div class="partners__block partners__block_margin">
+                    <img src="images/lo1.jpg">
+                    <img src="images/lo2.jpg">
+                    <img src="images/11.jpg">
+                    <img src="images/lo4.jpg">
+                    <img src="images/lo5.jpg">
+                    <img src="images/11.jpg">
+                </div>
+                <div class="partners__block partners__block_justif-content-space-around">
+                    <img src="images/lo5.jpg">
+                    <img src="images/lo4.jpg">
+                    <img src="images/11.jpg">
+                    <img src="images/lo1.jpg">
+                </div>
+            </div>
+        </div>
+        <!--end partners-->
+
+        <div class="map-field main-page__map-field">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10263.74883028119!2d-97.01493820453726!3d49.9750361189841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52ea64d30a6e3201%3A0xfc1810bee9808c62!2z0JHQtdGA0LTRgSDQpdC40LvQuywg0JLQvtGB0YLQvtC6INCh0LXQudC90YIg0J_QvtC7LCDQnNCw0L3QuNGC0L7QsdCwLCDQmtCw0L3QsNC00LA!5e0!3m2!1sru!2sby!4v1608301677231!5m2!1sru!2sby"
+                    width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="allowfullscreen" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <!--end map-field-->
+
+        <div id="contact" class="contact main-page__contact">
+            <h2 class="contact__head head">Contact Us</h2>
+
+            <div class="connect contact__connect-wrapper">
+                <div class="connect__field">
+                    <h3 class="connect__head">Address</h3>
+                    <p class="connect__info">
+                        Melbourne, Brisbane<br>
+                        QLD 4101, Australia
+                    </p>
+                </div>
+                <div class="connect__field">
+                    <h3 class="connect__head">Phone</h3>
+                    <p class="connect__info">
+                        +(000) 123 4565 32<br>
+                        +(010) 123 455 354
+                    </p>
+                </div>
+                <div class="connect__field">
+                    <h3 class="connect__head">Email Us</h3>
+                    <p class="connect__info">
+                        info@example1.com<br>
+                        info@example2.com
+                    </p>
+                </div>
+            </div>
+
+            <div class="form contact__form">
+                <div class="form__wrapper">
+                    <input class="form__field field" name="first-name" placeholder="First Name">
+                    <input class="form__field field" name="last-name" placeholder="Last Name">
+                </div>
+                <div class="form__wrapper">
+                    <input class="form__field field" name="phone-number" placeholder="Phone">
+                    <input class="form__field field" type="email" name="e-mail" placeholder="E-mail">
+                </div>
+                <textarea class="form__textarea" placeholder="Message..."></textarea><br>
+                <input class="button button-send" type="submit" value="Send">
+            </div>
+        </div>
+        <!--end contact-->
+    </div>
+    <!--end main-page-->
+
+    <footer class="footer">
+        <div class="info footer__info">
+            <p class="info__main-info">&copy 2018 Birds Care. All Rights Reserved | Design by <a target="_blank" class="info__link" href="https://w3layouts.com/">W3Layouts</a></p>
+            <div class="info__wrapper">
+                <i class="fab fa-footer fa-facebook-f"></i>
+                <i class="fab fa-footer fa-twitter"></i>
+                <i class="fab fa-footer fa-google-plus-g"></i><br>
+            </div>
+            <div class="info__wrapper info__wrapper_text-align-right">
+                <a href="#home"><i class="fas fa-footer fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let menuButton = document.getElementById('hidden-button');
+        let hiddenMenu = document.getElementById('hidden-menu');
+
+        menuButton.addEventListener('click', function (event) {
+            if (hiddenMenu.style.display === 'block') {
+                hiddenMenu.style.display = 'none';
+            } else {
+                hiddenMenu.style.display = 'block';
+            }
+        });
+    </script>
+</body>
+</html>

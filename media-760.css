@@ -1,0 +1,133 @@
+@media (max-width: 760px) {
+    .desc__head {
+        font-size: 2.5rem;
+    }
+
+    .advices__nav {
+        display: none;
+    }
+
+    .advices__hidden-advices-nav {
+        display: block;
+    }
+
+    .advices__desc,
+    .team__flex-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desc__img {
+        width: 100%;
+        height: 260px;
+    }
+
+    .desc__advice,
+    .team__trainers {
+        width: 80%;
+    }
+
+    .about__arrivals {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .arrivals_width-and-height {
+        width: 100%;
+        height: 300px;
+    }
+
+    .blog-news__news {
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .blog-news__news_border-none {
+        border: none;
+    }
+
+    .gallery__block {
+        flex-direction: column;
+    }
+
+    .gallery__section {
+        width: 90%;
+        margin: auto;
+    }
+
+    .right-section__img-top {
+        background-position: top;
+        margin-top: 25px;
+    }
+
+    .right-section__img-bottom {
+        height: 57%;
+        background-position: top;
+    }
+
+    .subscribe__subscribe-block {
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .subscribe-block__image,
+    .subscribe-block__desc {
+        width: 100%;
+        height: 50%;
+    }
+
+    .subscribe__subscribe-block_height {
+        height: 300px;
+    }
+
+    .contact__connect-wrapper {
+        flex-direction: column;
+        align-items: center;
+        height: 650px;
+    }
+
+    .connect__field {
+        width: 80%;
+    }
+
+    .contact__form {
+        width: 90%;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 600px){
+    .gallery__section {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .left-section__wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .left-section__img-bottom {
+        width: 100%;
+        height: 50%;
+        margin: 10px 0;
+    }
+
+    .right-section__img-top {
+        margin: 10px 0 20px;
+    }
+
+    .subscribe-block__form {
+        flex-direction: column;
+    }
+
+    .field {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .form__wrapper {
+        flex-direction: column;
+        margin: 0;
+    }
+}
